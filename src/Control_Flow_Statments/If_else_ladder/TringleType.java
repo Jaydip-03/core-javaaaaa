@@ -16,8 +16,11 @@ public class TringleType {
         double c = sc.nextDouble() ;
 
 
-        if ((a + b) > c) {
-            System.out.println("");
+        if (a == b && a == c && b== a && b== c && c == a && c == b) {
+            System.out.println("is Equilatral Tringle") ;
+        }
+        else if ((a == b || a == c) || (b== a || b== c) || (c == a || c == b)) {
+            System.out.println("Isosceles Triangle");
         }
     }
 }
