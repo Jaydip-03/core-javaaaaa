@@ -22,5 +22,8 @@ public class TringleType {
         else if ((a == b || a == c) || (b== a || b== c) || (c == a || c == b)) {
             System.out.println("Isosceles Triangle");
         }
+        else {
+            
+        }
     }
 }
